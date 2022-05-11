@@ -1,0 +1,34 @@
+<!DOCTYPE html><html lang="en"><head>
+  <script src="libraries/p5.js"></script>
+  <script src="libraries/p5.dom.min.js"></script>
+  <script src="libraries/p5.play.js"></script>
+
+  <script src="js/form.js"></script>
+<!--Link game.js and player.js-->
+   
+<script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-app.js"> </script>
+<script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-database.js"></script>
+
+<!--Add database config here below-->
+<script>
+const firebaseConfig = {
+  apiKey: "AIzaSyA0o1Ij0NFn0yTYoTk11nnTA3m4JN4Jncw",
+  authDomain: "ball-movement-bb4e0.firebaseapp.com",
+  databaseURL: "https://ball-movement-bb4e0-default-rtdb.firebaseio.com",
+  projectId: "ball-movement-bb4e0",
+  storageBucket: "ball-movement-bb4e0.appspot.com",
+  messagingSenderId: "222857842411",
+  appId: "1:222857842411:web:73d8e747073a639ddc78ae"
+};
+firebase.initializeApp(firebaseConfig); </script>  
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+
+</head>
+<body>
+  <script src="sketch.js"></script>
+
+
+
+</body></html>
